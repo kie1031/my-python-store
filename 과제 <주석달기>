@@ -1,0 +1,7 @@
+"예제 4. (반복문 내 조건문)"
+print("4번째 예제")  #("4번째 예제")를 출력
+a = ['english','spanish','korean','chinese']
+for b in a: 
+    if b == 'korean': continue #  만약B안에코리안이있으면계속해라
+    print("%s를 잘합니다." % b)  #즉결과는()로나오게된다
+    
