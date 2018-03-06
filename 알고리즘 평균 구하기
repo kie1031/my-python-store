@@ -1,0 +1,9 @@
+d=int(input('입력하세요'))
+sum=0
+a=0
+b=0
+while a<d :
+    a+=1
+    b+=a
+sum=b/a
+print(sum)
